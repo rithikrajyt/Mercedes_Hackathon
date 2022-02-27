@@ -1,0 +1,523 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 0rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+  
+.navbar-brand{
+  font-size: 30px;
+  background-color: none;
+}
+.nav-link{
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+}
+.Learnmore{
+  
+}
+.avail1{
+  margin-bottom: 100px;
+  font-size:40px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.btn_btn-outline-success_btn-lg{
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  background-image: linear-gradient(144deg,#bb61fc, #221670 50%,#04b0bd);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all .3s;
+ }
+ 
+ button:active,
+ button:hover {
+  outline: 0;
+  color: #171514;
+ }
+ 
+ button span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+ }
+ 
+ button:hover span {
+  background: none;
+  color: #171514;
+ }
+ 
+ button:active {
+  transform: scale(0.9);
+  color: #171514;
+ }
+
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  .carousel-caption text-start.h1{
+    color: blue;
+  }
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 41rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 41rem;
+  }
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .services {
+    margin-bottom: 1.5rem;
+    color: #171514;
+    text-align: center;
+  }
+  .right-text{
+   width: 650px;
+   height: 400px;
+   float: right;
+   text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+  .head1{
+    font-size:40px;
+    color: white;
+    text-shadow: 2px 2px black;
+  }
+  .para1{
+    color: #FFFFFF;
+    font :bold;
+    text-shadow: 2px 2px black;
+    font-size: x-large;
+  }
+  .buynow,.Learnmore{
+    float: right;
+    margin: 10px;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  background-image: linear-gradient(144deg,#bb61fc, #221670 50%,#04b0bd);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all .3s;
+ }
+ 
+ button:active,
+ button:hover {
+  outline: 0;
+  color: #171514;
+ }
+ 
+ button span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+ }
+ 
+ button:hover span {
+  background: none;
+  color: #171514;
+ }
+ 
+ button:active {
+  transform: scale(0.9);
+  color: #171514;
+ }
+
+.Booknow{
+  margin-bottom:73px ;
+  margin-right: 569px;
+  float: right;
+  width: 195px;
+  height: 70px;
+  align-items: center;
+  background-image: linear-gradient(144deg,#00afa1, #006840 50%,#04b0bd);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 23px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all .3s;
+ }
+ 
+ button:active,
+ button:hover {
+  outline: 0;
+  color: #171514;
+ }
+ 
+ button span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+ }
+ 
+ button:hover span {
+  background: none;
+  color: #171514;
+ }
+ 
+ button:active {
+  transform: scale(0.9);
+  color: #171514;
+ }
+ .senow{
+   margin-left: 129px;
+  width: 80px;
+  height: 40px;
+  align-items: center;
+  background-image: linear-gradient(144deg,#bb61fc, #221670 50%,#04b0bd);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all .3s;
+ }
+ 
+ button:active,
+ button:hover {
+  outline: 0;
+  color: #171514;
+ }
+ 
+ button span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+ }
+ 
+ button:hover span {
+  background: none;
+  color: #171514;
+ }
+ 
+ button:active {
+  transform: scale(0.9);
+  color: #171514;
+ }
+ .boknow{
+   margin-top: 20px;
+   margin-left: 129px;
+  width: 80px;
+  height: 40px;
+  align-items: center;
+  background-image: linear-gradient(144deg,#bb61fc, #221670 50%,#04b0bd);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all .3s;
+ }
+ 
+ button:active,
+ button:hover {
+  outline: 0;
+  color: #171514;
+ }
+ 
+ button span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+ }
+ 
+ button:hover span {
+  background: none;
+  color: #171514;
+ }
+ 
+ button:active {
+  transform: scale(0.9);
+  color: #171514;
+ }
+ .bynow{
+   margin-left: 129px;
+  width: 80px;
+  height: 40px;
+  align-items: center;
+  background-image: linear-gradient(144deg,#bb61fc, #221670 50%,#04b0bd);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all .3s;
+ }
+ 
+ button:active,
+ button:hover {
+  outline: 0;
+  color: #171514;
+ }
+ 
+ button span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+ }
+ 
+ button:hover span {
+  background: none;
+  color: #171514;
+ }
+ 
+ button:active {
+  transform: scale(0.9);
+  color: #171514;
+ }
+.timeslot{
+  font-size: 28px;
+  color: white;
+}
+.form-label{
+  font-size: 20px;
+  margin-left: 500px;
+  text-align: center;
+}
+.form-control{
+  width: 500px;
+  margin-left: 500px;
+  justify-content: center;
+}
+.form-text{
+  margin-left: 500px;
+}
+.box1{
+  margin-left: 500px;
+}
+.submitbutton{
+margin-left: 675px;
+width: 100px;
+height: 50px;
+align-items: center;
+background-image: linear-gradient(144deg,#bb61fc, #221670 50%,#04b0bd);
+border: 0;
+border-radius: 8px;
+box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+box-sizing: border-box;
+color: #FFFFFF;
+display: flex;
+font-family: Phantomsans, sans-serif;
+font-size: 18px;
+justify-content: center;
+line-height: 1em;
+max-width: 100%;
+min-width: 140px;
+padding: 3px;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+white-space: nowrap;
+cursor: pointer;
+transition: all .3s;
+}
+
+button:active,
+button:hover {
+outline: 0;
+color: #171514;
+}
+
+button span {
+background-color: rgb(5, 6, 45);
+padding: 16px 24px;
+border-radius: 6px;
+width: 100%;
+height: 100%;
+transition: 300ms;
+}
+
+button:hover span {
+background: none;
+color: #171514;
+}
+
+button:active {
+transform: scale(0.9);
+color: #171514;
+}
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  

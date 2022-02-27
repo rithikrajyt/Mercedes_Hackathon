@@ -1,0 +1,124 @@
+﻿/*styling.css*/
+/*add font family, background image*/
+
+body {
+  color: #5bc0de;
+  font-family: "Poppins", sans-serif;
+}
+
+.fa-map-marker-alt,
+.fa-dot-circle {
+  color: #5bc0de;
+}
+
+/*Jumbotron*/
+.jumbotron {
+  background-color: transparent;
+  margin: 0;
+  padding: 10px;
+}
+
+.jumbotron h1 {
+  letter-spacing: 2.5px;
+  font-size: 3.5em;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  text-align: center;
+}
+
+/*map*/
+#googleMap {
+  width: 100%;
+  height: 700px;
+  margin: 10px auto;
+}
+
+/*output box*/
+#output {
+  text-align: center;
+  font-size: 2em;
+  margin: 20px auto;
+}
+
+#mode {
+  color: black;
+}
+#date{
+  margin: auto;
+}
+
+
+[type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  width: 190px;
+}
+
+
+
+
+
+#date input {
+  margin: 10px 550px;
+  font: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+  color: inherit;
+}
+#date h2{
+  margin-left: 500px;
+}
+
+
+#date input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px 80px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  width: 290px;
+}
+
+
+#time input {
+  margin: 10px 550px;
+  font: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+  color: inherit;
+}
+#time h2{
+  margin-left: 500px;
+}
+
+
+#time input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px 90px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  width: 290px;
+}
+
+#yes{
+  margin-left: 305px;
+
+}
